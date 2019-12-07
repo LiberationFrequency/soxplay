@@ -1,0 +1,6 @@
+#!/bin/sh
+
+play -r 8000 -n synth sine 440 sine 350 remix 1-2 pad .312 .215 fade .10 .5 vol .1 repeat 7 \
+: synth sine 440 sine 350 remix 1-2 pad .312 .215 fade .10 .5 vol .1 pitch 500 repeat 7 \
+: synth sine 440 sine 350 remix 1-2 pad .312 .215 fade .10 .5 vol .1 pitch 700 repeat 7 \
+: synth sine 440 sine 350 remix 1-2 pad .312 .215 fade .10 .5 vol .1 repeat 7

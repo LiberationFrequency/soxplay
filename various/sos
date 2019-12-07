@@ -1,0 +1,5 @@
+#!/bin/sh
+
+play -r 8000 -n synth .240 sine 600 fade 0 .120 pad .120@.120 gain -3 repeat 2 \
+: synth .480 sine 600 fade 0 .360 pad .120@.360 gain -3 repeat 2 \
+: synth .240 sine 600 fade 0 .120 pad .120@.120 gain -3 repeat 2

@@ -1,0 +1,52 @@
+#!/bin/sh
+
+play -n synth .2 pl G4 gain -3 \
+: synth .2 pl G4 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth	.4 pl C5 gain -3 \
+: synth	.2 pl E5 gain -3 \
+: synth .2 pl C5 gain -3 \
+: synth .8 pl G4 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl F4 gain -3 \
+: synth .4 pl D4 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl E4 gain -3 \
+: synth .4 pl C4 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .2 pl E5 gain -3 \
+: synth	.2 pl C5 gain -3 \
+: synth .8 pl G4 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl F4 gain -3 \
+: synth .4 pl D4 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl E4 gain -3 \
+: synth .4 pl C4 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl B4 gain -3 \
+: synth .4 pl D5 gain -3 \
+: synth .4 pl B4 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl E5 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl B4 gain -3 \
+: synth .4 pl D5 gain -3 \
+: synth .4 pl G4 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl E5 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl A4 gain -3 \
+: synth .4 pl A4 gain -3 \
+: synth .2 pl C5 gain -3 \
+: synth .2 pl A4 gain -3 \
+: synth .8 pl G4 gain -3 \
+: synth .2 pl G4 gain -3 \
+: synth .2 pl E5 gain -3 \
+: synth .2 pl E5 gain -3 \
+: synth .2 pl D5 gain -3 \
+: synth .4 pl C5 gain -3 \
+: synth .4 pl B4 gain -3 \
+: synth 1.5 pl C5 gain -3 fade q 0 1.2 .3

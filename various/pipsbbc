@@ -1,0 +1,9 @@
+#!/bin/sh
+
+play -n \
+synth 1 sine 1000 gain -3 fade 0 .1 pad .9@.1 \
+: synth 1 sine 1000 gain -3 fade .01 .1 pad .9@.1 \
+: synth 1 sine 1000 gain -3 fade .01 .1 pad .9@.1 \
+: synth 1 sine 1000 gain -3 fade .01 .1 pad .9@.1 \
+: synth 1 sine 1000 gain -3 fade .01 .1 pad .9@.1 \
+: synth .5 sine 1000 gain -3

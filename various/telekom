@@ -1,0 +1,8 @@
+#!/bin/sh
+
+play -n \
+synth 0.2 sin 1244 gain -6  \
+: synth 0.2 sin 1244 gain -6 \
+: synth 0.2 sin 1244 gain -6 \
+: synth 0.2 sin 1760 gain -6 \
+: synth 0.2 sin 1244 gain -6

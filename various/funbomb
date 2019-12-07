@@ -1,0 +1,4 @@
+#!/bin/sh
+
+play -c 2 -n synth 1 square 1400+200 synth 1 square 2700+700 gain -l 3 delay .1 synth 1 square 3400+1100 delay .09 gain -6 speed .5 \
+: synth 1 noise synth 1 square amod 66
