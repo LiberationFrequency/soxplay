@@ -1,0 +1,11 @@
+#!/bin/sh
+
+play -c2 -n \
+synth .118647 sine 548 synth sine fmod 4 vol 0.5 trim .0018 speed .5 \
+: synth .118635 sine 548 synth sine fmod 137 trim .00184 vol 0.5 speed .5 \
+: synth .118647 sine 548 synth sine fmod 4 vol 0.5 trim .0018 speed .5 \
+: synth .118635 sine 548 synth sine fmod 137 trim .00184 vol 0.5 speed .5 \
+: synth .118647 sine 548 synth sine fmod 4 vol 0.5 trim .0018 speed .5 \
+: synth .118635 sine 548 synth sine fmod 137 trim .00184 vol 0.5 speed .5 \
+: synth .118647 sine 548 synth sine fmod 4 vol 0.5 trim .0018 speed .5 \
+: synth .118635 sine 548 synth sine fmod 137 trim .00184 vol 0.5 speed .5

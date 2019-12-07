@@ -1,0 +1,9 @@
+#!/bin/sh
+
+play -n -c4 \
+remix 1,2,3,4 \
+synth 1 squ 410/547 squ 547/410 exp 362/483 exp 483/362 gain -3 \
+fade .05 .75 .05 \
+echo 0.8 0.66 40 0.4 \
+compand 0.02,0.20 5:-90,-60,-10 -5 -90 0.1 \
+repeat 19

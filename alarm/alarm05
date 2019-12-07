@@ -1,0 +1,8 @@
+#!/bin/sh
+
+play -c1 -n \
+synth 100 pinknoise mix \
+synth 9999s tri pad 11000s \
+repeat 20 \
+reverb 50 0.1 50 0.5 0.9 \
+highpass 100

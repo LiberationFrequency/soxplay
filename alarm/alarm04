@@ -1,0 +1,8 @@
+#!/bin/sh
+
+play -n \
+synth 2 saw 700/1300 \
+synth .2 tri 700-300 \
+echo 0.8 0.5 20.0 0.4 \
+gain -l 3 \
+repeat 19

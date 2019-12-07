@@ -1,0 +1,11 @@
+#!/bin/sh
+
+play -n \
+synth 1 sine 11  fade .5 .5 0 gain -6 speed 3 \
+: synth 1 sine 220 gain -6 speed 3 \
+: synth 1 sine 330 gain -6 speed 3 \
+: synth 1 sine 440 gain -6 speed 3 \
+: synth 1 sine 550 gain -6 speed 3 \
+: synth 1 sine 660 gain -6 speed 3 \
+: synth 1 sine 770 gain -6 speed 3 \
+: synth 1 sine 880 gain -6 fade 0 .7 .3 speed 3

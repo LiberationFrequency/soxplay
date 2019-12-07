@@ -1,0 +1,15 @@
+#!/bin/sh
+
+play -n \
+synth .16 saw 100 \
+synth .16 saw 1600 \
+synth .16 saw 3100 \
+synth .16 saw 4850 \
+synth .16 saw 6300 \
+synth .16 saw 7900 \
+synth .16 saw 9500 \
+synth .16 saw 11100 \
+synth .16 saw 12750 \
+synth .16 saw 14200 \
+synth .16 saw 15850 \
+synth pad .02 fade .005 .15 .005 repeat 19 synth .16 sin amod .1 repeat 19 pitch 2400 gain -l 12

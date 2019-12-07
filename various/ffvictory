@@ -1,0 +1,13 @@
+#!/bin/sh
+
+play -n \
+synth .053 pl B5 pad 0 .053 gain -3 \
+: synth .053 pl B5 pad 0 .053 gain -3 \
+: synth .053 pl B5 pad 0 .053 gain -3 \
+: synth .053 pl B5 pad 0 .053 gain -3 \
+: synth .428 pl B5 gain -3 \
+: synth .428 pl G5 gain -3 \
+: synth .428 pl A5 gain -3 \
+: synth .107 pl B5 pad 0 .214 gain -3 \
+: synth .107 pl A5 gain -3 \
+: synth .857 pl B5 gain -3

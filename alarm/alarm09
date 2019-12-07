@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# W/T Autoalarm auf 500 kHz: 
+# 12 Striche von je 4 Sekunden Dauer im Abstand von 1 Sekunde, gesendet in der Betriebsart A2A mit 1300 Hz.
+
+play -n \
+synth 5 sine 1300 \
+gain -3 \
+fade 0 4 \
+pad 1@4 \
+repeat 19
